@@ -4,11 +4,11 @@ class Student < User
   end
   
   def learn(knowledge)
-    @knowledge
+    @knowledge << knowledge
   end
   
-  def knowledge
-    self.learn
-  end
+  # def knowledge
+    
+  # end
   
 end
