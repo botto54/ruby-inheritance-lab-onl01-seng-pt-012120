@@ -1,3 +1,14 @@
-class Student 
-
+class Student < User
+  def initialize
+    @knowledge = []
+  end
+  
+  def learn(knowledge)
+    @knowledge
+  end
+  
+  def knowledge
+    self.learn
+  end
+  
 end
